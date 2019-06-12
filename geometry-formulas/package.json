@@ -1,0 +1,25 @@
+{
+  "name": "geometry-formulas",
+  "version": "1.0.0",
+  "description": "Collection of basic and commonly used geometry formulas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrylmendonez/geometry-formulas-npm-package.git"
+  },
+  "keywords": [
+    "geometry",
+    "math",
+    "formulas",
+    "geometry-formulas"
+  ],
+  "author": "Darryl Mendonez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrylmendonez/geometry-formulas-npm-package/issues"
+  },
+  "homepage": "https://github.com/darrylmendonez/geometry-formulas-npm-package#readme"
+}
