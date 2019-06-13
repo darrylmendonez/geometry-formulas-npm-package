@@ -74,10 +74,12 @@
         * Example: `const { method1, method2 } = require('<package-name>')`
     * Use methods
         * Example:
+        ---------------------------------------
             ```javascript
             console.log(method1('argument1'));
             console.log(method2('argument2'));
             ```
+        ---------------------------------------
     * Run app
         * In terminal run javascript file
             * Example: `node app`
