@@ -10,9 +10,9 @@
 
 ## Guide to creating a fully functional npm package
 1. In terminal, create a directory
-  * Example: 
-    * `mkdir geometry-formulas`
-    * `cd geometry-formulas`
+    * Example: 
+        * `mkdir geometry-formulas`
+        * `cd geometry-formulas`
 2. Create `package.json` file
   * `npm init`
   * Fill out form
