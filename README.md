@@ -81,4 +81,6 @@
         * In terminal run javascript file
             * Example: `node app`
         * You should see the output of the application
-  
+
+### Source:
+How to create and publish NPM Packages: https://youtu.be/rTsz09zRuTU
