@@ -7,6 +7,7 @@
 * Install package into another project
 * Require node module and use javascript methods from node module
 
+
 ## Guide to creating a fully functional npm package
 1. In terminal, create a directory
   * Example: 
@@ -55,6 +56,7 @@
   * Publish updated package
     * `npm publish`
   * Confirm package has been updated by refreshing package details on npmjs.com
+
 
 ## Guide for installing and using npm package
 1. Create new project
