@@ -74,8 +74,8 @@
         * Example: `const { method1, method2 } = require('<package-name>')`
     * Use methods
         ```
-        console.log(method1('argument1'))
-        console.log(method2('argument2'))
+        console.log(method1('argument1'));
+        console.log(method2('argument2'));
         ```
     * Run app
         * In terminal run javascript file
