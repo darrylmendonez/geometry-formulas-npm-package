@@ -60,25 +60,25 @@
 
 ## Guide for installing and using npm package
 1. Create new project
-  * In terminal, if you're still in the npm package directory, move up one level
-    * `cd ..`
-  * Create new directory
-    * Example: 
-      * `mkdir math-homework`
-      * `cd math-homework`
-  * Open new project folder in editor
+    * In terminal, if you're still in the npm package directory, move up one level
+        * `cd ..`
+    * Create new directory
+        * Example: 
+            * `mkdir math-homework`
+            * `cd math-homework`
+    * Open new project folder in editor
 2. Install and use npm package
-  * Install package
-    * `npm i <package-name> --save`
-  * Create a javascript file
-    * Example: `app.js`
-  * Require methods from node module
-    * Example: `const { method1, method2 } = require('<package-name>')`
-  * Use methods
-    * `console.log(method1('argument1'))`
-    * `console.log(method2('argument2'))`
-  * Run app
-    * In terminal run javascript file
-      * Example: `node app`
-    * You should see the output of the application
+    * Install package
+        * `npm i <package-name> --save`
+    * Create a javascript file
+        * Example: `app.js`
+    * Require methods from node module
+        * Example: `const { method1, method2 } = require('<package-name>')`
+    * Use methods
+        * `console.log(method1('argument1'))`
+        * `console.log(method2('argument2'))`
+    * Run app
+        * In terminal run javascript file
+            * Example: `node app`
+        * You should see the output of the application
   
