@@ -1,20 +1,23 @@
 A collection of basic and common geometry formulas.
 
-# Browser support
+## Browser support
 Chrome, Safari, Firefox, Opera, IE9+
 
-# Installation
+## Installation
 ```
 npm install geometry-formulas
 ```
 
-# Usage
+## Usage
 ```
-const { perimeter, area, volume } = require('geometry-formulas')
-perimeterProblem(perimeter.rectangle, 2, 3);
-areaProblem(area.rectangle, 2, 3);
-volumeProblem(volume.rectangularPrism, 2, 3, 4);
+const { perimeter } = require('geometry-formulas')
+
+const perimeterProblem = (formula, side1, side2, side3) => {
+  console.log(`The perimeter of this ${formula.name} is ${formula(side1, side2, side3).toFixed(2)}`);
+}
+
+perimeterProblem(perimeter.triangle, 2, 3, 4);
 ```
 
-# License
+## License
 geometry-formulas is freely distributable under the terms of the [MIT license](https://opensource.org/licenses/MIT)
