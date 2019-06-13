@@ -83,4 +83,4 @@
         * You should see the output of the application
 
 ### Source:
-How to create and publish NPM Packages: https://youtu.be/rTsz09zRuTU
+How to create and publish npm packages: https://youtu.be/rTsz09zRuTU
