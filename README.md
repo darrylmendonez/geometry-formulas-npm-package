@@ -1,15 +1,11 @@
 # Creating a fully functional npm package
 
-
-
 ## At a Glance
 * Write javascript code to be packaged to npm
 * Save version number
 * Publish to npm
 * Install package into another project
 * Require node module and use javascript methods from node module
-
-
 
 ## Guide to creating a fully functional npm package
 1. In terminal, create a directory
@@ -60,8 +56,6 @@
         * `npm publish`
     * Confirm package has been updated by refreshing package details on npmjs.com
 
-
-
 ## Guide for installing and using npm package
 1. Create new project
     * In terminal, if you're still in the npm package directory, move up one level
@@ -80,15 +74,13 @@
         * Example: `const { method1, method2 } = require('<package-name>')`
     * Use methods
         * ```
-        console.log(method1('argument1'))
-        console.log(method2('argument2'))
+        console.log(method1('argument1'));
+        console.log(method2('argument2'));
         ```
     * Run app
         * In terminal run javascript file
             * Example: `node app`
         * You should see the output of the application
-
-
 
 ### Source:
 How to create and publish NPM Packages: https://youtu.be/rTsz09zRuTU
