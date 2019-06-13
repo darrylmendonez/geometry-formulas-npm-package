@@ -73,7 +73,8 @@
     * Require methods from node module
         * Example: `const { method1, method2 } = require('<package-name>')`
     * Use methods
-        *```javascript
+        *
+        ```javascript
         console.log(method1('argument1'));
         console.log(method2('argument2'));
         ```
