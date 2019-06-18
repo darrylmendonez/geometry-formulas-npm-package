@@ -2,6 +2,7 @@ const { perimeter, area, volume } = require('geometry-formulas')
 
 const perimeterProblem = (formula, side1, side2, side3) => {
   console.log(`The perimeter of this ${formula.name} is ${formula(side1, side2, side3).toFixed(2)}`);
+  return formula(side1, side2, side3).toFixed(2);
 }
 
 perimeterProblem(perimeter.square, 2);
@@ -20,6 +21,7 @@ perimeterProblem(perimeter.circle, 2);
 
 const areaProblem = (formula, side1, side2, side3) => {
   console.log(`The area of this ${formula.name} is ${formula(side1, side2, side3).toFixed(2)}`);
+  return formula(side1, side2, side3).toFixed(2);
 }
 
 areaProblem(area.square, 2);
@@ -46,6 +48,7 @@ areaProblem(area.cone, 2, 3);
 
 const volumeProblem = (formula, side1, side2, side3) => {
   console.log(`The volume of this ${formula.name} is ${formula(side1, side2, side3).toFixed(2)}`);
+  return formula(side1, side2, side3).toFixed(2);
 }
 
 volumeProblem(volume.cube, 2);
