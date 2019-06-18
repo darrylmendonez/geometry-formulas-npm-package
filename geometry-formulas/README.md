@@ -20,4 +20,4 @@ perimeterProblem(perimeter.triangle, 2, 3, 4);
 ```
 
 ## License
-geometry-formulas is freely distributable under the terms of the [MIT license](https://opensource.org/licenses/MIT)
+geometry-formulas is freely distributable under the terms of the [ISC license](https://opensource.org/licenses/ISC)
