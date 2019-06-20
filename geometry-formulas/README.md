@@ -14,6 +14,7 @@ const { perimeter } = require('geometry-formulas')
 
 const perimeterProblem = (formula, side1, side2, side3) => {
   console.log(`The perimeter of this ${formula.name} is ${formula(side1, side2, side3).toFixed(2)}`);
+  return formula(side1, side2, side3).toFixed(2);
 }
 
 perimeterProblem(perimeter.triangle, 2, 3, 4);
